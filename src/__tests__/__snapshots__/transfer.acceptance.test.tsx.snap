@@ -164,7 +164,7 @@ exports[`multiple transfers update balances correctly 1`] = `
           <p
             class="text-sm text-gray-500"
           >
-            3/8/2026, 3:52:44 PM
+            1/1/2026, 12:00:02 PM
           </p>
         </div>
         <div
@@ -195,7 +195,7 @@ exports[`multiple transfers update balances correctly 1`] = `
           <p
             class="text-sm text-gray-500"
           >
-            3/8/2026, 3:52:42 PM
+            1/1/2026, 12:00:01 PM
           </p>
         </div>
         <div
@@ -388,7 +388,7 @@ exports[`successful transfer updates both balances and logs transaction 1`] = `
           <p
             class="text-sm text-gray-500"
           >
-            3/8/2026, 3:52:41 PM
+            1/1/2026, 12:00:01 PM
           </p>
         </div>
         <div

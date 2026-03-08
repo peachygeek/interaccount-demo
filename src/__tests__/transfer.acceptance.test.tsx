@@ -2,6 +2,17 @@ import { render, screen, waitFor } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import App from "../App"
 
+const FIXED_DATE = new Date("2026-01-01T12:00:00")
+
+beforeEach(() => {
+  vi.useFakeTimers({ shouldAdvanceTime: true })
+  vi.setSystemTime(FIXED_DATE)
+})
+
+afterEach(() => {
+  vi.useRealTimers()
+})
+
 test("initial render matches snapshot", () => {
   const { container } = render(<App />)
   expect(container).toMatchSnapshot()
