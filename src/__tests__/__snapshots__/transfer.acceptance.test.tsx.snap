@@ -1,0 +1,413 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`initial render matches snapshot 1`] = `
+<div>
+  <div
+    class="min-h-screen bg-gray-100 p-10"
+  >
+    <h1
+      class="text-3xl font-bold mb-8"
+    >
+      Inter-Account Transfer Demo
+    </h1>
+    <div
+      class="grid grid-cols-2 gap-6 mb-8"
+    >
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account A
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          50000
+        </p>
+      </div>
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account B
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          2000
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow mb-8"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transfer Funds
+      </h2>
+      <div>
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <button
+          disabled=""
+        >
+          Transfer
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transaction History
+      </h2>
+      <p
+        class="text-gray-500"
+      >
+        No transactions yet
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`multiple transfers update balances correctly 1`] = `
+<div>
+  <div
+    class="min-h-screen bg-gray-100 p-10"
+  >
+    <h1
+      class="text-3xl font-bold mb-8"
+    >
+      Inter-Account Transfer Demo
+    </h1>
+    <div
+      class="grid grid-cols-2 gap-6 mb-8"
+    >
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account A
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          43000
+        </p>
+      </div>
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account B
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          9000
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow mb-8"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transfer Funds
+      </h2>
+      <div>
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <button>
+          Transfer
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transaction History
+      </h2>
+      <div
+        class="flex justify-between border-b py-2"
+      >
+        <div>
+          <p
+            class="font-medium"
+          >
+            Transfer
+          </p>
+          <p
+            class="text-sm text-gray-500"
+          >
+            3/8/2026, 3:52:44 PM
+          </p>
+        </div>
+        <div
+          class="text-right"
+        >
+          <p
+            class="font-medium"
+          >
+            R
+            2000
+          </p>
+          <p
+            class="text-green-600 text-sm"
+          >
+            Success
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex justify-between border-b py-2"
+      >
+        <div>
+          <p
+            class="font-medium"
+          >
+            Transfer
+          </p>
+          <p
+            class="text-sm text-gray-500"
+          >
+            3/8/2026, 3:52:42 PM
+          </p>
+        </div>
+        <div
+          class="text-right"
+        >
+          <p
+            class="font-medium"
+          >
+            R
+            5000
+          </p>
+          <p
+            class="text-green-600 text-sm"
+          >
+            Success
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`shows insufficient funds when amount exceeds balance 1`] = `
+<div>
+  <div
+    class="min-h-screen bg-gray-100 p-10"
+  >
+    <h1
+      class="text-3xl font-bold mb-8"
+    >
+      Inter-Account Transfer Demo
+    </h1>
+    <div
+      class="grid grid-cols-2 gap-6 mb-8"
+    >
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account A
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          50000
+        </p>
+      </div>
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account B
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          2000
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow mb-8"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transfer Funds
+      </h2>
+      <div>
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <p
+          style="color: red;"
+        >
+          Insufficient funds
+        </p>
+        <button
+          disabled=""
+        >
+          Transfer
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transaction History
+      </h2>
+      <p
+        class="text-gray-500"
+      >
+        No transactions yet
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`successful transfer updates both balances and logs transaction 1`] = `
+<div>
+  <div
+    class="min-h-screen bg-gray-100 p-10"
+  >
+    <h1
+      class="text-3xl font-bold mb-8"
+    >
+      Inter-Account Transfer Demo
+    </h1>
+    <div
+      class="grid grid-cols-2 gap-6 mb-8"
+    >
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account A
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          49000
+        </p>
+      </div>
+      <div
+        class="bg-white p-6 rounded-xl shadow"
+      >
+        <h2
+          class="text-xl font-semibold"
+        >
+          Account B
+        </h2>
+        <p
+          class="text-2xl font-bold mt-2"
+        >
+          R
+          3000
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow mb-8"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transfer Funds
+      </h2>
+      <div>
+        <input
+          placeholder="Enter amount"
+          type="number"
+        />
+        <button>
+          Transfer
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-white p-6 rounded-xl shadow"
+    >
+      <h2
+        class="text-xl font-semibold mb-4"
+      >
+        Transaction History
+      </h2>
+      <div
+        class="flex justify-between border-b py-2"
+      >
+        <div>
+          <p
+            class="font-medium"
+          >
+            Transfer
+          </p>
+          <p
+            class="text-sm text-gray-500"
+          >
+            3/8/2026, 3:52:41 PM
+          </p>
+        </div>
+        <div
+          class="text-right"
+        >
+          <p
+            class="font-medium"
+          >
+            R
+            1000
+          </p>
+          <p
+            class="text-green-600 text-sm"
+          >
+            Success
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
